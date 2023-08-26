@@ -20,7 +20,7 @@ body {
 
 aside {
   flex: 2;
-  background-image: url('/halie-west-25xggax4bSA-unsplash.jpg');
+  background-image: url('/images/halie-west-25xggax4bSA-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -78,5 +78,5 @@ main {
 
 @font-face {
   font-family: 'Nurse Bold';
-  src: url('./Norse-Bold.otf');
+  src: url('/fonts/Norse-Bold.otf');
 }
