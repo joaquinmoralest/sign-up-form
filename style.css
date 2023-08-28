@@ -16,6 +16,7 @@ a {
 body {
   height: 100vh;
   display: flex;
+  background-color: #f9fafe;
 }
 
 aside {
@@ -36,7 +37,7 @@ aside {
 
 main {
   flex: 3;
-  padding: 100px 0;
+  padding: 130px 0 50px 0;
 }
 
 .container {
@@ -74,6 +75,92 @@ main {
 .intro {
   font-size: 1.5rem;
   font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.intro p:last-child {
+  margin-top: 20px;
+}
+
+.section-white {
+  background-color: white;
+  padding: 20px 50px;
+  box-shadow: 0 4px 6px 0px rgba(0, 0, 0, .3);
+}
+
+form fieldset {
+  max-width: 500px;
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-start: 1;
+  gap: 20px;
+}
+
+form h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+label {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  max-width: 200px;
+  font-size: .8rem;
+  letter-spacing: 1.5px;
+}
+
+input {
+  font-size: 1rem;
+  font-weight: 400;
+  border: 1px solid #E5E7EB;
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+
+input:focus {
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, .3);
+  outline: .5px solid #6372d1;
+}
+
+button {
+  padding: 10px 40px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #f9fafe;
+  background-color: #596D48;
+  border: none;
+  border-radius: 5px;
+  margin: 30px 50px;
+}
+
+.log-in {
+  margin: 0px 50px;
+}
+
+.log-in a {
+  color: #5d6c4c;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+input.error {
+  border: 1px solid tomato;
+}
+
+.alert {
+  font-size: .6rem;
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: initial;
+  color: tomato;
+}
+
+.alert.show-alert {
+  visibility: hidden;
 }
 
 @font-face {
